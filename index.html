@@ -102,15 +102,48 @@
     }
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
     #flexContainer6 {
-
+      flex-direction: row-reverse;
+      align-items: flex-end;
+      justify-content: flex-end;
     }
+    #flexContainer6 .flexItem:nth-child(3) {
+    align-self: start;
+    }
+    #flexContainer6 .flexItem:nth-child(2) {
+    align-items: flex-end;
+    }
+    #flexContainer6 .flexItem:nth-child(1) {
+   justify-content: flex-end;
+    }
+
     /* 👉 Task 7 - [HINT] research flex-grow */
     #flexContainer7 {
 
     }
+    #flexContainer7 .flexItem:nth-child(3) {
+    flex-grow: 2;
+    }
+    #flexContainer7 .flexItem:nth-child(2) {
+    flex-grow: 1;
+    }
+    #flexContainer7 .flexItem:nth-child(1) {
+   
+    }
     /* 👉 Task 8 - [HINT] you got this! */
     #flexContainer8 {
-
+      justify-content: space-between;
+    }
+    #flexContainer8 .flexItem:nth-child(1) {
+     justify-content: flex-end;
+    
+    }
+    #flexContainer8 .flexItem:nth-child(2) {
+   align-self: center;
+    
+    }
+    #flexContainer8 .flexItem:nth-child(3) {
+   align-self: flex-end;
+   justify-content: flex-start;
     }
 
     /*
